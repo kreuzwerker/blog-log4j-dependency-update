@@ -19,4 +19,4 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
     - name: Build
-      run: ./gradlew test
+      run: ./mvnw clean verify
